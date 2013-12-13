@@ -1,0 +1,30 @@
+#game{
+	width: 480px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+#position{
+	width: 160px;
+	float: left;
+	padding-bottom: 100px;
+}
+
+.click{
+	width: 156px;
+	height: 156px;
+	border: 1px solid;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 130px;
+	border-color: gray;
+}
+
+#clear{
+	clear: both;
+}
+
+a:hover{
+	text-decoration: none;
+}

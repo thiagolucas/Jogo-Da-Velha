@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="JogoVelha">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js"></script>
+    <script src="spec/app.js"></script>
+    <script src="src/JogoDaVelha.js"></script>
+  </head>
+  <body>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container"  ng-controller="JogoVelhaCtrl">
+
+      <div id="game">
+
+        <div id="position" class="click"><a href="" ng-click='clique(0)'>{{v[0]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(1)'>{{v[1]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(2)'>{{v[2]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(3)'>{{v[3]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(4)'>{{v[4]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(5)'>{{v[5]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(6)'>{{v[6]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(7)'>{{v[7]}}</a></div>
+        <div id="position" class="click"><a href="" ng-click='clique(8)'>{{v[8]}}</a></div>
+
+      </div>
+
+      <div id="clear"></div>
+      <h1>O vencedor é: {{vencedor}}</h1>
+    </div>
+  </body>
+</html>
